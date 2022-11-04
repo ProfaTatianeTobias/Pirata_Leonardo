@@ -44,6 +44,6 @@ class CannonBall {
     setTimeout(()=>{
       World.remove(world, this.body);
       delete balls[index];
-    },200); // 1 segundo
+    },50); // 1 segundo
   }
 }
